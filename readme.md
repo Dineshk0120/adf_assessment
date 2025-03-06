@@ -1,0 +1,1 @@
+AZURE adf assessment
