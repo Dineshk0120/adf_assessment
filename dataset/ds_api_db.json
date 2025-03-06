@@ -1,0 +1,17 @@
+{
+	"name": "ds_api_db",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_api_db",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "api"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
